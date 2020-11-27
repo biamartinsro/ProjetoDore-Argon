@@ -331,24 +331,96 @@
         </div>
       </div>
     </nav>
-    <!-- Header -->
+ <!-- Header -->
     <!-- Header -->
     <div class="header bg-primary pb-6">
       <div class="container-fluid">
-        <div class="header-body">
-          <div class="row align-items-center py-4">
-            <div class="col-lg-6 col-7">
-              <nav aria-label="breadcrumb" class="d-none d-md-inline-block ml-md-4">
-                <ol class="breadcrumb breadcrumb-links breadcrumb-dark">
-                  <li class="breadcrumb-item"><a href="#"><i class="fas fa-home"></i></a></li>
-                  <li class="breadcrumb-item"><a href="#">Cadastro</a></li>
-                  <li class="breadcrumb-item active" aria-current="page">Cadastro de Item final</li>
-                </ol>
-              </nav>
-            </div>
-            <div class="col-lg-6 col-5 text-right">
-              <a href="#" class="btn btn-sm btn-neutral">New</a>
-              <a href="#" class="btn btn-sm btn-neutral">Filters</a>
+          <div class="header-body">
+              <div class="row align-items-center py-4">
+                  <div class="col-lg-6 col-7">
+                      <h6 class="h2 text-white d-inline-block mb-0">Cadastro</h6>
+                      <nav aria-label="breadcrumb" class="d-none d-md-inline-block ml-md-4">
+                          <ol class="breadcrumb breadcrumb-links breadcrumb-dark">
+                              <li class="breadcrumb-item"><a href="#"><i class="fas fa-home"></i></a></li>
+                              <li class="breadcrumb-item"><a href="#">Cadastro</a></li>
+                              <li class="breadcrumb-item active" aria-current="page">Item Final</li>
+                          </ol>
+                      </nav>
+                  </div>
+                  <div class="col-lg-6 col-5 text-right">
+                      <a href="#" class="btn btn-sm btn-neutral">Novo</a>
+                      <a href="#" class="btn btn-sm btn-neutral">Selecionar</a>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+            <!-- Table -->
+            <div class="container-fluid">
+              <div class="row justify-content-center">
+                <div class="col-lg-6 col-md-8">
+                  <div class="card bg-secondary border-0">
+                    <div class="card-header bg-transparent pb-5">
+                      <div class="text-muted text-center mt-2 mb-4"><small>Item Final</small></div>
+                      <div class="text-center">
+            <form role="form">
+              <div class="form-group">
+                <div class="input-group input-group-merge input-group-alternative mb-3">
+                  <div class="input-group-prepend">
+                  </div>
+                  <input class="form-control " placeholder="Digite o nome do Especifico:" type="text">
+                </div>
+                <!-- Button trigger modal -->
+    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+      Escolha o Especifico
+    </button>
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Especificos</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <div class="">
+              <div class="custom-control custom-control-alternative custom-checkbox">
+                <input class="custom-control-input" id="customCheckRegister" type="checkbox">
+                <label class="custom-control-label" for="customCheckRegister">
+                <span>TI</span> </div>
+                <div class="custom-control custom-control-alternative custom-checkbox">
+                <input class="custom-control-input" id="customCheckRegister1" type="checkbox">
+                <label class="custom-control-label" for="customCheckRegister1">
+                <span>ADM</span></div>
+                <div class="custom-control custom-control-alternative custom-checkbox">
+                <input class="custom-control-input" id="customCheckRegister2" type="checkbox">
+                <label class="custom-control-label" for="customCheckRegister2">
+                <span>FIN</span></div>
+                <div class="custom-control custom-control-alternative custom-checkbox">
+                <input class="custom-control-input" id="customCheckRegister3" type="checkbox">
+                <label class="custom-control-label" for="customCheckRegister3">
+                <span>DIR</span></div>
+              </div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+            <button type="button" class="btn btn-primary">Ok</button>
+          </div>
+        </div>
+      </div>
+    </div>
+              <div class="text-center">
+                <button type="button" class="btn btn-primary mt-4">Feito  <span><i class="ni ni-check-bold"></i></span></button>
+              </div>
+            </form>
+          </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
             </div>
           </div>
         </body>
