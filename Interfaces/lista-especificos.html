@@ -201,9 +201,9 @@
                         <!-- Card header -->
                         <div class="card-header border-0">
                             <h3 class="mb-0">Específicos</h3>
-                            
                         </div>
-                        <!-- Light table -->
+
+                        <!-- Tabela dos específicos -->
                         <div class="table-responsive">
                             <table class="table align-items-center table-flush">
                                 <thead class="thead-light">
@@ -223,13 +223,12 @@
                                         </th>
                                         <td>
                                             <a href="./edit-especifico.html" class="btn btn-sm bg-green text-white">Editar</a>
-                                            <a href="#" class="btn btn-sm bg-danger text-white">Excluir</a>
-                                          </td>
+                                            <a class="btn btn-sm bg-danger text-white" type="button" data-toggle="modal" data-target="#myModal">Excluir</a>
+                                        </td>
                                     </tr>
                                     <tr>
                                         <th scope="row">
                                             <div class="media align-items-center">
-                                                
                                                 <div class="media-body">
                                                     <span class="name mb-0 text-sm">Cartuchos</span>
                                                 </div>
@@ -237,57 +236,67 @@
                                         </th>
                                         <td>
                                             <a href="./edit-especifico.html" class="btn btn-sm bg-green text-white">Editar</a>
-                                            <a href="#" class="btn btn-sm bg-danger text-white">Excluir</a>
+                                            <a class="btn btn-sm bg-danger text-white" type="button" data-toggle="modal" data-target="#myModal">Excluir</a>
                                           </td>
                                     </tr>
                                     <tr>
                                         <th scope="row">
                                             <div class="media align-items-center">
-                                                
                                                 <div class="media-body">
                                                     <span class="name mb-0 text-sm">HD</span>
                                                 </div>
                                             </div>
                                         </th>
-                                        
                                         <td>
                                             <a href="./edit-especifico.html" class="btn btn-sm bg-green text-white">Editar</a>
-                                            <a href="#" class="btn btn-sm bg-danger text-white">Excluir</a>
-                                          </td>
+                                            <a class="btn btn-sm bg-danger text-white" type="button" data-toggle="modal" data-target="#myModal">Excluir</a>
+                                        </td>
                                     </tr>
                                     <tr>
                                         <th scope="row">
                                             <div class="media align-items-center">
-                                               
                                                 <div class="media-body">
                                                     <span class="name mb-0 text-sm">Fontes</span>
                                                 </div>
                                             </div>
                                         </th>
-                                       
                                         <td>
                                             <a href="./edit-especifico.html" class="btn btn-sm bg-green text-white">Editar</a>
-                                            <a href="#" class="btn btn-sm bg-danger text-white">Excluir</a>
-                                          </td>
+                                            <a class="btn btn-sm bg-danger text-white" type="button" data-toggle="modal" data-target="#myModal">Excluir</a>
+                                        </td>
                                     </tr>
                                     <tr>
                                         <th scope="row">
                                             <div class="media align-items-center">
-                                               
                                                 <div class="media-body">
                                                     <span class="name mb-0 text-sm">Gabinetes</span>
                                                 </div>
                                             </div>
                                         </th>
-                                        
                                         <td>
                                             <a href="./edit-especifico.html" class="btn btn-sm bg-green text-white">Editar</a>
-                                            <a href="#" class="btn btn-sm bg-danger text-white">Excluir</a>
-                                          </td>
+                                            <a class="btn btn-sm bg-danger text-white" type="button" data-toggle="modal" data-target="#myModal">Excluir</a>
+                                        </td>
                                     </tr>
                                 </tbody>
                             </table>
                         </div>
+
+                        <!-- Modal para a confirmação de exclusão dos específicos -->
+                        <div class="modal" tabindex="-1" role="dialog" id="myModal">
+                            <div class="modal-dialog" role="document">
+                              <div class="modal-content">
+                                <div class="modal-body">
+                                  <h2>Tem certeza que deseja excluir?</h5>
+                                </div>
+                                <div class="modal-footer">
+                                  <button type="button" class="btn btn-danger" >EXCLUIR</button>
+                                  <button type="button" class="btn btn-secondary" data-dismiss="modal">CANCELAR</button>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+
                         <!-- Card footer -->
                         <div class="card-footer py-4">
                             <nav aria-label="...">

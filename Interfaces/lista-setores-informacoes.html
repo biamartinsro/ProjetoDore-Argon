@@ -221,7 +221,8 @@
                     </th>
                     <td>
                       <a href="./edit-setor-informacao.html" class="btn btn-sm bg-green text-white">Editar</a>
-                      <a href="#" class="btn btn-sm bg-danger text-white">Excluir</a>
+                      <a class="btn btn-sm bg-danger text-white"
+                      type="button" data-toggle="modal" data-target="#myModal">Excluir</a>
                     </td>
                     
                    </tr>
@@ -236,7 +237,8 @@
                     </th>
                     <td>
                       <a href="./edit-setor-informacao.html" class="btn btn-sm bg-green text-white">Editar</a>
-                      <a href="#" class="btn btn-sm bg-danger text-white">Excluir</a>
+                      <a class="btn btn-sm bg-danger text-white"
+                      type="button" data-toggle="modal" data-target="#myModal">Excluir</a>
                     </td>
                     
                   </tr>
@@ -251,7 +253,8 @@
                     </th>
                     <td>
                       <a href="./edit-setor-informacao.html" class="btn btn-sm bg-green text-white">Editar</a>
-                      <a href="#" class="btn btn-sm bg-danger text-white">Excluir</a>
+                      <a class="btn btn-sm bg-danger text-white"
+                      type="button" data-toggle="modal" data-target="#myModal">Excluir</a>
                     </td>
                     
                   </tr>
@@ -266,7 +269,8 @@
                     </th>
                     <td>
                       <a href="./edit-setor-informacao.html" class="btn btn-sm bg-green text-white">Editar</a>
-                      <a href="#" class="btn btn-sm bg-danger text-white">Excluir</a>
+                      <a class="btn btn-sm bg-danger text-white"
+                      type="button" data-toggle="modal" data-target="#myModal">Excluir</a>
                     </td>
                    </tr>
                   <tr>
@@ -280,21 +284,16 @@
                     </th>
                     <td>
                       <a href="./edit-setor-informacao.html" class="btn btn-sm bg-green text-white">Editar</a>
-                      <a href="#" class="btn btn-sm bg-danger text-white">Excluir</a>
+                      <a class="btn btn-sm bg-danger text-white"
+                      type="button" data-toggle="modal" data-target="#myModal">Excluir</a>
                     </td>
                     </tr>
                 </tbody>
               </table>
             </div>
-            <!-- Es -->
-            <div class="card-footer py-4">
-
-            </div>
           </div>
         </div>
       </div>
-
-      
       <!-- Dark table -->
         <div class="col">
           <div class="card bg-default shadow">
@@ -321,7 +320,8 @@
                     </th>
                     <td>
                       <a href="./edit-setor-informacao.html" class="btn btn-sm bg-green text-white">Editar</a>
-                      <a href="#" class="btn btn-sm bg-danger text-white">Excluir</a>
+                      <a class="btn btn-sm bg-danger text-white"
+                      type="button" data-toggle="modal" data-target="#myModal">Excluir</a>
                     </td>
                     </tr>
                   <tr>
@@ -335,7 +335,8 @@
                     </th>
                     <td>
                       <a href="./edit-setor-informacao.html" class="btn btn-sm bg-green text-white">Editar</a>
-                      <a href="#" class="btn btn-sm bg-danger text-white">Excluir</a>
+                      <a class="btn btn-sm bg-danger text-white"
+                      type="button" data-toggle="modal" data-target="#myModal">Excluir</a>
                     </td>
                     </tr>
                   <tr>
@@ -349,7 +350,8 @@
                     </th>
                     <td>
                       <a href="./edit-setor-informacao.html" class="btn btn-sm bg-green text-white">Editar</a>
-                      <a href="#" class="btn btn-sm bg-danger text-white">Excluir</a>
+                      <a class="btn btn-sm bg-danger text-white"
+                      type="button" data-toggle="modal" data-target="#myModal">Excluir</a>
                     </td>
                    </tr>
                   <tr>
@@ -363,7 +365,8 @@
                     </th>
                     <td>
                       <a href="./edit-setor-informacao.html" class="btn btn-sm bg-green text-white">Editar</a>
-                      <a href="#" class="btn btn-sm bg-danger text-white">Excluir</a>
+                      <a class="btn btn-sm bg-danger text-white"
+                      type="button" data-toggle="modal" data-target="#myModal">Excluir</a>
                     </td>
                     </tr>
                   <tr>
@@ -377,12 +380,28 @@
                     </th>
                     <td>
                       <a href="./edit-setor-informacao.html" class="btn btn-sm bg-green text-white">Editar</a>
-                      <a href="#" class="btn btn-sm bg-danger text-white">Excluir</a>
+                      <a class="btn btn-sm bg-danger text-white"
+                      type="button" data-toggle="modal" data-target="#myModal">Excluir</a>
                     </td>
                     </tr>
                 </tbody>
               </table>
             </div>
+
+            <div class="modal" tabindex="-1" role="dialog" id="myModal">
+              <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                  <div class="modal-body">
+                    <h2>Tem certeza que deseja excluir?</h5>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-danger">EXCLUIR</button>
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">CANCELAR</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+
             <!-- Card footer -->
             <div class="card-footer py-4">
               <nav aria-label="...">
@@ -393,8 +412,6 @@
                       <span class="sr-only">Previous</span>
                     </a>
                   </li>
-
-
                   <li class="page-item">
                     <a class="page-link" href="./lista-usuarios.html" data-toggle="tooltip"
                         data-original-title="Usuários">1</a>
