@@ -60,6 +60,8 @@
       </div>
     </div>
   </nav>
+
+  
   <!-- Main content -->
   <div class="main-content" id="panel">
     <!-- Topnav -->
@@ -109,9 +111,9 @@
                 <div class="row shortcuts px-4">
                   <a href="#!" class="col-4 shortcut-item">
                     <span class="shortcut-media avatar rounded-circle bg-gradient-red">
-                      <i class="ni ni-calendar-grid-58"></i>
+                      <i class="ni ni-send"></i>
                     </span>
-                    <small>Calendário</small>
+                    <small>Contato</small>
                   </a>
                   <a href="#!" class="col-4 shortcut-item">
                     <span class="shortcut-media avatar rounded-circle bg-gradient-orange">
@@ -153,7 +155,7 @@
                   <span>Suporte</span>
                 </a>
                 <div class="dropdown-divider"></div>
-                <a href="#!" class="dropdown-item">
+                <a href="" class="dropdown-item" type="button" data-toggle="modal" data-target="#myModal">
                   <i class="ni ni-user-run"></i>
                   <span>Sair</span>
                 </a>
@@ -163,6 +165,21 @@
         </div>
       </div>
     </nav>
+
+
+    <div class="modal" tabindex="-1" role="dialog" id="myModal">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-body">
+            <h2>Tem certeza que deseja sair?</h5>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-success">SIM</button>
+            <button type="button" class="btn btn-danger" data-dismiss="modal">NÃO</button>
+          </div>
+        </div>
+      </div>
+    </div>
     <!-- Header -->
     <div class="header pb-6 d-flex align-items-center"
       style="min-height: 500px;  background-size: cover; background-position: center top;">
