@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="Plataforma de Suporte Dore">
     <meta name="author" content="Creative Tim">
-    <title>Lista de módulos</title>
+    <title>Editar item final</title>
     <!-- Favicon -->
     <link rel="icon" href="../assets/img/theme/Dore-icone.png" type="image/png">
     <!-- Fonts -->
@@ -148,7 +148,7 @@
                             </a>
                             <div class="dropdown-menu  dropdown-menu-right ">
                                 <div class="dropdown-header noti-title">
-                                    <h6 class="text-overflow m-0">Seja bem-vindo(a)!</h6>
+                                    <h6 class="text-overflow m-0">Seja bem-vindo(a0!</h6>
                                 </div>
                                 <a href="#!" class="dropdown-item">
                                     <i class="ni ni-settings-gear-65"></i>
@@ -161,7 +161,7 @@
                                 <div class="dropdown-divider"></div>
                                 <a href="" class="dropdown-item" type="button" data-toggle="modal" data-target="#myModal">
                                     <i class="ni ni-user-run"></i>
-                                    <span>Sair</span>
+                                    <span >Sair</span>
                                 </a>
                             </div>
                         </li>
@@ -170,11 +170,12 @@
             </div>
         </nav>
 
+
         <div class="modal" tabindex="-1" role="dialog" id="myModal">
             <div class="modal-dialog" role="document">
               <div class="modal-content">
                 <div class="modal-body">
-                  <h2>Tem certeza que deseja excluir?</h5>
+                  <h2>Tem certeza que deseja sair?</h5>
                 </div>
                 <div class="modal-footer">
                   <button type="button" class="btn btn-success">SIM</button>
@@ -184,23 +185,18 @@
             </div>
           </div>
         <!-- Header -->
-        <div class="header bg-default pb-6">
-            <div class="container-fluid">
-                <div class="header-body">
-                    <div class="row align-items-center py-4">
-                        <div class="col-lg-6 col-7">
-                            <h6 class="h2 text-white d-inline-block mb-0">Listas</h6>
-                            <nav aria-label="breadcrumb" class="d-none d-md-inline-block ml-md-4">
-                                <ol class="breadcrumb breadcrumb-links breadcrumb-dark">
-                                    <li class="breadcrumb-item"><a href="#"><i class="fas fa-home"></i></a></li>
-                                    <li class="breadcrumb-item"><a href="#">Listas</a></li>
-                                    <li class="breadcrumb-item active" aria-current="page">Módulos</li>
-                                </ol>
-                            </nav>
-                        </div>
-                        <div class="col-lg-6 col-5 text-right">
-                            <a href="./cad_modulo.html" class="btn btn-sm btn-neutral">Novo</a>
-                        </div>
+        <div class="header pb-6 d-flex align-items-center"
+            style="min-height: 500px; background-size: cover; background-position: center top;">
+            <!-- Mask -->
+            <span class="mask bg-gradient-default opacity-8"></span>
+            <!-- Header container -->
+            <div class="container-fluid d-flex align-items-center">
+                <div class="row">
+                    <div class="col-lg-7 col-md-10">
+                        <h1 class="display-2 text-white">Editar o cadastro de um item final</h1>
+                        <p class="text-white mt-0 mb-5">Modifique as informações de um item final que já esteja
+                            cadastrado
+                            no sistema</p>
                     </div>
                 </div>
             </div>
@@ -208,166 +204,90 @@
         <!-- Page content -->
         <div class="container-fluid mt--6">
             <div class="row">
-                <div class="col">
-                    <div class="card">
-                        <!-- Card header -->
-                        <div class="card-header border-0">
-                            <h3 class="mb-0">Módulos</h3>
-                        </div>
-                        <!-- Light table -->
-                        <div class="table-responsive">
-                            <table class="table align-items-center table-flush">
-                                <thead class="thead-light">
-                                    <tr>
-                                        <th scope="col" class="sort" data-sort="name">Nome</th>
-                                        <th scope="col" class="sort" data-sort="completion">Ação</th>
-                                    </tr>
-                                </thead>
-                                <tbody class="list">
-                                    <tr>
-                                        <th scope="row">
-                                            <div class="media align-items-center">
-                                                
-                                                <div class="media-body">
-                                                    <span class="name mb-0 text-sm">Software</span>
-                                                </div>
-                                            </div>
-                                        </th>
-                                        <td>
-                                            <a href="./edit-problema.html" class="btn btn-sm bg-green text-white">Editar</a>
-                                            <a class="btn btn-sm bg-danger text-white"
-                                            type="button" data-toggle="modal" data-target="#myModal">Excluir</a>
-                                          </td>
-                                    </tr>
-                                    <tr>
-                                        <th scope="row">
-                                            <div class="media align-items-center">
-                                                
-                                                <div class="media-body">
-                                                    <span class="name mb-0 text-sm">Hardware</span>
-                                                </div>
-                                            </div>
-                                        </th>
-                                        <td>
-                                            <a href="./edit-problema.html" class="btn btn-sm bg-green text-white">Editar</a>
-                                            <a class="btn btn-sm bg-danger text-white"
-                                            type="button" data-toggle="modal" data-target="#myModal">Excluir</a>
-                                          </td>
-                                    </tr>
-                                    <tr>
-                                        <th scope="row">
-                                            <div class="media align-items-center">
-                                               
-                                                <div class="media-body">
-                                                    <span class="name mb-0 text-sm">Redes</span>
-                                                </div>
-                                            </div>
-                                        </th>
-                                        <td>
-                                            <a href="./edit-problema.html" class="btn btn-sm bg-green text-white">Editar</a>
-                                            <a class="btn btn-sm bg-danger text-white"
-                                            type="button" data-toggle="modal" data-target="#myModal">Excluir</a>
-                                          </td>
-                                    </tr>
-                                    <tr>
-                                        <th scope="row">
-                                            <div class="media align-items-center">
-                                               
-                                                <div class="media-body">
-                                                    <span class="name mb-0 text-sm">Segurança</span>
-                                                </div>
-                                            </div>
-                                        </th>
-                                        <td>
-                                            <a href="./edit-problema.html" class="btn btn-sm bg-green text-white">Editar</a>
-                                            <a class="btn btn-sm bg-danger text-white"
-                                            type="button" data-toggle="modal" data-target="#myModal">Excluir</a>
-                                          </td>
-                                    </tr>
-                                    <tr>
-                                        <th scope="row">
-                                            <div class="media align-items-center">
-                                                
-                                                <div class="media-body">
-                                                    <span class="name mb-0 text-sm">Desenvolvimento</span>
-                                                </div>
-                                            </div>
-                                        </th>
-                                        <td>
-                                            <a href="./edit-problema.html" class="btn btn-sm bg-green text-white">Editar</a>
-                                            <a class="btn btn-sm bg-danger text-white"
-                                            type="button" data-toggle="modal" data-target="#myModal">Excluir</a>
-                                          </td>
-                                    </tr>
-                                </tbody>
-                            </table>
-                        </div>
-
-                        <div class="modal" tabindex="-1" role="dialog" id="myModal">
-                            <div class="modal-dialog" role="document">
-                              <div class="modal-content">
-                                <div class="modal-body">
-                                  <h2>Tem certeza que deseja excluir?</h5>
+                <div class="col-xl-4 order-xl-2">
+                    <div class="card card-profile">
+                        <img src="../assets/img/theme/img-1-1000x600.jpg" alt="Image placeholder" class="card-img-top">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-3 order-lg-2">
+                                <div class="card-profile-image">
+                                    <a href="#">
+                                        <img src="../assets/img/theme/Dore-icone.png" class="rounded-circle">
+                                    </a>
                                 </div>
-                                <div class="modal-footer">
-                                  <button type="button" class="btn btn-danger">EXCLUIR</button>
-                                  <button type="button" class="btn btn-secondary" data-dismiss="modal">CANCELAR</button>
-                                </div>
-                              </div>
                             </div>
-                          </div>
-
-                        <!-- Card footer -->
-                        <div class="card-footer py-4">
-                            <nav aria-label="...">
-                                <ul class="pagination justify-content-end mb-0">
-                                    <li class="page-item">
-                                        <a class="page-link" href="#" tabindex="-1">
-                                            <i class="fas fa-angle-left"></i>
-                                            <span class="sr-only">Previous</span>
-                                        </a>
-                                    </li>
-                                    <li class="page-item">
-                                        <a class="page-link" href="./lista-usuarios.html" data-toggle="tooltip"
-                                            data-original-title="Usuários">1</a>
-                                    </li>
-                                    <li class="page-item active">
-                                        <a class="page-link" href="./lista-modulos.html" data-toggle="tooltip"
-                                            data-original-title="Módulos">2</a>
-                                    </li>
-                                    <li class="page-item">
-                                        <a class="page-link" href="./lista-submodulos.html" data-toggle="tooltip"
-                                            data-original-title="Submódulos">3</a>
-                                    </li>
-                                    <li class="page-item">
-                                        <a class="page-link" href="./lista-especificos.html" data-toggle="tooltip"
-                                            data-original-title="Específicos">4</a>
-                                    </li>
-                                    <li class="page-item">
-                                        <a class="page-link" href="./lista-itensfinais.html" data-toggle="tooltip"
-                                            data-original-title="Itens finais">5</a>
-                                    </li>
-                                    <li class="page-item">
-                                        <a class="page-link" href="./lista-problemas.html" data-toggle="tooltip"
-                                            data-original-title="Problemas">6</a>
-                                    </li>
-                                    <li class="page-item">
-                                        <a class="page-link" href="./lista-setores-informacoes.html" data-toggle="tooltip"
-                                            data-original-title="Setores e Informações">7</a>
-                                    </li>
-                                    <li class="page-item">
-                                        <a class="page-link" href="#">
-                                            <i class="fas fa-angle-right"></i>
-                                            <span class="sr-only">Next</span>
-                                        </a>
-                                    </li>
-                                </ul>
-                            </nav>
+                        </div>
+                        <div class="card-header text-center border-0 pt-8 pt-md-4 pb-0 pb-md-4">
+                            <div class="d-flex justify-content-between">
+                            </div>
+                        </div>
+                        <div class="card-body pt-0 " style="margin-top: 10%;">
+                            <div class="text-center">
+                                <h5 class="h3">
+                                    Aprendiz TI<span class="font-weight-light">, 18</span>
+                                </h5>
+                                <div class="h5 font-weight-300">
+                                    <i class="ni location_pin mr-2"></i>Parnamirim, RN
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
+                <div class="col-xl-8 order-xl-1">
+                    <div class="card">
+                        <div class="card-header">
+                            <div class="row align-items-center">
+                                <div class="col-8">
+                                    <h3 class="mb-0">Informações</h3>
+                                </div>
+                                <div class="col-4 text-right">
+                                    <a href="#!" class="btn btn-sm btn-success">Pronto</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <form>
+                                <div class="pl-lg-4">
+                                    <div class="row">
+                                        <div class="col-lg-12">
+                                            <div class="form-group">
+                                                <label class="form-control-label" for="input-username">Nome</label>
+                                                <input type="text" id="input-username" class="form-control"
+                                                    placeholder="" value="">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-12">
+                                            <div class="form-group">
+                                                <label class="form-control-label" for="input-address">Escolha o
+                                                    específico correspondente: </label>
+                                                <div class="botoes">
+                                                    <button class="btn btn-primary">Example</button>
+                                                    <button class="btn btn-primary">Example</button>
+                                                    <button class="btn btn-primary">Example</button>
+                                                    <button class="btn btn-primary">Example</button>
+                                                    <button class="btn btn-primary">Example</button>
+                                                </div>
+                                                <label class="form-control-label" for="input-address"></label>
+                                                <div class="botoes">
+                                                    <button class="btn btn-primary">Example</button>
+                                                    <button class="btn btn-primary">Example</button>
+                                                    <button class="btn btn-primary">Example</button>
+                                                    <button class="btn btn-primary">Example</button>
+                                                    <button class="btn btn-primary">Example</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                        </div>
+                    </div>
+                    </form>
+                </div>
             </div>
         </div>
+    </div>
+    </div>
     </div>
     <!-- Argon Scripts -->
     <!-- Core -->
